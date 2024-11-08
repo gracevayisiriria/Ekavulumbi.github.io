@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    
+    display: flex;
+    width: 100%;
+    height: 90px;
+    justify-content: space-between;
+    background-color:rgba(0,0,0,0.6);
+    position: fixed;
+}
+
+.logo{
+    display: flex;
+    gap: 3px;
+}
+.logo img{
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 4px;
+}
+.logo_univers{
+    margin-top: 20px;
+    font-size: 1.4rem;
+    color: ivory;
+}
+.menu .onglets{
+    padding-top: 30px;
+   padding-right: 10px;
+}
+.menu .onglets a{
+    text-decoration: none;
+    color:darkgray;
+    margin-right: 20px;
+    font-size: 1.2rem;
+    transition: 0.5s;
+    font-family: helvetica;
+}
+.menu .onglets a:hover{
+    border-bottom: 1px solid white;
+    transition: 3s;
+    letter-spacing: 3px;
+}
+
+.acceuil{
+    width: 100%;
+    height: 90vh;
+    padding-top: 100px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/IMG-20240825-WA0034\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    gap: 3px;
+    
+}
+.citation{
+width: 60%;
+}
+.acceuil .citation p{
+    margin-top: 120px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: helvetica;
+    font-weight: bolder;
+    color: cornsilk;
+    border-right: 3px solid green;
+    border-radius:20%;
+}
+.acceuil .citation p span{
+    color: rgb(21, 128, 0);
+    font-family: impact;
+    cursor: pointer;
+    transition: all;
+}
+.acceuil .citation p span:hover{
+     color: blue;
+     background-color: blanchedalmond;
+     border-radius: 5px;
+}
+
+.images{
+    width: 40%;
+}
+.none h1{
+    text-align: center;
+    background-color: yellowgreen;
+    margin-right: 10px;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+
+
+@media (max-width:990px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        
+        display: flex;
+        width: 100%;
+        height: 200px;
+        justify-content: space-between;
+        background-color:rgba(0,0,0,0.6);
+        position: fixed;
+        gap: 15px;
+    }
+    
+    .logo{
+        display: flex;
+        gap: 3px;
+    }
+    .logo img{
+        width: 100px;
+        margin-left: 5px;
+        margin-top: 10px;
+        border-radius: 8px;
+        padding: 4px;
+    }
+    .logo_univers{
+        margin-top: 20px;
+        font-size: 1.4rem;
+        color: ivory;
+    }
+    .menu .onglets{
+        padding-top: 30px;
+       
+    }
+    .menu .onglets a{
+        text-decoration: none;
+        color:darkgray;
+        margin-right: 20px;
+        font-size: 1.2rem;
+        transition: 0.5s;
+        font-family: helvetica;
+    }
+    .menu .onglets a:hover{
+        border-bottom: 1px solid white;
+        transition: 3s;
+        letter-spacing: 3px;
+    }
+    
+    .acceuil{
+        width: 100%;
+        height: 90vh;
+        padding-top: 100px;
+        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/IMG-20240825-WA0034\ \(1\).jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        display: inline-block;
+        gap: 3px;
+        
+    }
+    .citation{
+    width: 100%;
+    }
+    .acceuil .citation p{
+        margin-top: 120px;
+        margin-left: 50px;
+        text-align: center;
+        font-size: 1.1rem;
+        font-family: helvetica;
+        font-weight: bolder;
+        color: cornsilk;
+        border-right: 3px solid green;
+        border-radius:20%;
+    }
+    .acceuil .citation p span{
+        color: rgb(21, 128, 0);
+        font-family: impact;
+    }
+    .images{
+        width: 0;
+    }
+    .none h1{
+        margin-top: 30px;
+        text-align: center;
+        background-color: yellowgreen;
+        margin-right: 10px;
+        border-radius: 15px;
+        padding: 8px;
+    }
+      
+}
